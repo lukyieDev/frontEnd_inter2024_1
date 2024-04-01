@@ -1,0 +1,160 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{ /* Corpo da pagina */
+    background-image: url(../imagens/imgprincipal2.jpg);
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden; 
+}
+#faleConosco{ /* menu fale conosco*/
+    background-color: rgb(4, 24, 63);
+    color: aliceblue; 
+    padding: 0.5%;
+    padding-left: 5%;
+    .insta{
+        margin-left: 1%;
+        a{
+            color: white;
+        }
+    }
+}
+/*Inicio do menu principal*/
+#menu{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    img{
+        position: absolute;
+        margin: -2.8%;
+        margin-left: 5%;
+    }
+    h4{
+        font-size: 20px;
+        color: orange;
+        margin-right: -20px;
+    }
+}
+.perfil{
+    font-size: 28px;
+    margin-left: -10px;
+}
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+}
+/*fim menu principal*/
+
+/*Inicio do corpo da pagina principal*/
+#corpo{ /* Corpo da pagina "voce tem o nosso perfil" */
+    background-color: white;
+    height: 380px;
+    position: absolute;
+    text-align: center;
+    padding: 3%;
+    margin-left: 10%;
+    margin-top: -40px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    p{
+        padding: 1%;
+        font-size: 20px;
+    } 
+}
+
+.junte strong{
+    color:  rgb(204, 65, 0);
+}
+.butao-matricula{ /*Botão para realizar a matricula*/
+    margin-top: 60px;
+    font-size: 20px;
+    background-color:  rgb(204, 65, 0);
+    padding: 3% 15% 3% 16%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+     a{
+        text-decoration: none;
+        color: white;
+    }
+}
+.butao-matricula:hover{
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.9;
+    background-color:  rgb(255, 126, 66);   
+}
+#imgmenu{
+    position: relative;
+    padding: 15px;
+    max-width: 640px;
+    margin: 0 auto;
+}
+#imgmenu img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-right: -20%; 
+    margin-top: 10%; 
+}
+.imagem_principal{
+    margin-top: -5%;
+}
+/* Criação do carrossel */
+.galeria {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+    overflow-x: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.item {
+    width: 200px;
+    height: 200px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+}
+
+/* fim da criação do carrossel*/
+
+/* Inicio do submenu da pagina principal */
+#submenu{
+    color: white;
+    float: right;
+    padding: 10%;
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: -1px;
+}
+#submenu button {
+    background-color: rgb(204, 65, 0);
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+    margin-left:20%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border:none;
+    a{
+        text-decoration: none;
+        color: white;
+    }
+}
+#submenu button:hover{
+    -ms-transform: scale(0.8);
+    transform: scale(0.8);
+    opacity: 0.9;
+    background-color:  rgb(255, 126, 66);;  
+}
