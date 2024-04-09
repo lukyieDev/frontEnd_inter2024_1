@@ -4,6 +4,7 @@
 }
 body{ /* Corpo da pagina */
     background-image: url(../imagens/imgprincipal2.jpg);
+    background-repeat: no-repeat;
     background-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden; 
@@ -61,11 +62,12 @@ body{ /* Corpo da pagina */
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
-    p{
-        padding: 1%;
-        font-size: 20px;
-    } 
 }
+#corpo p{
+    padding: 1%;
+    font-size: 20px;
+} 
+
 
 .junte strong{
     color:  rgb(204, 65, 0);
