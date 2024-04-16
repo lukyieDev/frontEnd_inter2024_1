@@ -1,8 +1,80 @@
+<<<<<<< HEAD
 html, body{
     margin: 0;
     padding: 0;
     height: 100%;
+=======
+*{
+    margin: 0%;
+    padding: 0%;
 }
+body{ /* Corpo da pagina */
+    background-image: url(../imagens/imgprincipal2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden; 
+}
+#faleConosco{ /* menu fale conosco*/
+    background-color: rgb(4, 24, 63);
+    color: aliceblue; 
+    padding: 0.5%;
+    padding-left: 5%;
+    .insta{
+        margin-left: 1%;
+        a{
+            color: white;
+        }
+    }
+}
+/*Inicio do menu principal*/
+#menu{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    img{
+        position: absolute;
+        margin: -2.8%;
+        margin-left: 5%;
+    }
+    h4{
+        font-size: 20px;
+        color: orange;
+        margin-right: -20px;
+    }
+}
+.perfil{
+    font-size: 28px;
+    margin-left: -10px;
+}
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+}
+/*fim menu principal*/
+
+/*Inicio do corpo da pagina principal*/
+#corpo{ /* Corpo da pagina "voce tem o nosso perfil" */
+    background-color: white;
+    height: 380px;
+    position: absolute;
+    text-align: center;
+    padding: 3%;
+    margin-left: 10%;
+    margin-top: -40px;
+    width: 300px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+>>>>>>> 53fda0b74ee137e7f8474e4c2602b5e9705bff72
+}
+#corpo p{
+    padding: 1%;
+    font-size: 20px;
+} 
+
 
 body{
     background-image: url('../imagens/imgprincipal.jpg');
