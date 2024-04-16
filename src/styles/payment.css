@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ /* Corpo da pagina */
+    height: 100%;
+    background-image: url(../imagens/imgprincipal2.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden; 
+}
+html{
+    height: 100%;
+}
+
+#faleConosco{ /* menu fale conosco*/
+    background-color: rgb(4, 24, 63);
+    color: aliceblue; 
+    padding: 0.5%;
+    padding-left: 5%;
+    .insta{
+        margin-left: 1%;
+        a{
+            color: white;
+        }
+    }
+}
+
+/* Inicio do menu principal da segunda pagina */
+#menu3{  
+    background-color: black;
+    color: white;
+    padding: 2%;
+     img{
+        position: absolute;
+        margin: -2.8%;
+        margin-left: 14%;
+    }
+    h1{
+        margin-left: 5%;
+    }
+     h4{
+        font-size: 20px;
+        color: orange;
+        margin-left: 4.5%;
+    }
+}
+
+.perfil{
+    font-size: 28px;
+    margin-left: -10px;
+}
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+}
+#voltar{
+    float: right;
+    font-size: 20px;
+    a{
+       text-decoration: none;
+       color: white;
+       font-size: 20px;
+    }
+}
+
+#blocoAzul{
+    width: 100%;
+    padding: 1%;
+    background-color: rgb(5, 19, 46);
+}
+
+.textInfo{
+    margin-top: 6%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;    
+}
+
+#texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    color: white;
+    gap: 20px;
+    font-weight: bold;
+}
+
+#qrcode {
+    height: 350px;
+    width: 350px;
+}
