@@ -88,6 +88,13 @@ body{ /* Corpo da pagina */
 /*inciando o corpo da pagina */ 
 
 .container{
+    width: 500px;
     color: white;
+}
+
+.title{
+    font-size: 32px;
+    font-family: Bebas Neue;
+    text-align: center;
 }
 
