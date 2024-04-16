@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ /* Corpo da pagina */
+    background-image: url(../imagens/imgprincipal2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+#faleConosco{ /* menu fale conosco*/
+    background-color: rgb(4, 24, 63);
+    color: aliceblue; 
+    padding: 0.5%;
+    padding-left: 5%;
+}
+.insta{
+    margin-left: 1%;
+}
+.insta a{
+    color: white;
+}
+
+/* Inicio do menu principal da segunda pagina */
+.container-menu{  
+    background-color: black;
+    color: white;
+    padding: 2.7%;
+    text-align: center;
+    display: block;
+
+}
+.estrelas{
+    color: orange; 
+    letter-spacing: 6px;
+    margin-right: 5.5rem;
+    font-size: 8px; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+.boneco{
+    text-align: center;
+    display: block;
+}
+.boneco img{
+    position: absolute;
+    margin-left: 2.3rem;
+    margin-top: -3.3rem;
+}
+.perfil{
+    font-size: 30px;
+    margin-left: -50px;
+    font-family: Anton;
+}
+
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+    font-family: Bebas Neue;
+    
+}
+.nomeCross h1{
+    margin-left: 3.2rem;
+    margin-top: -1.2rem;
+}
+#voltar{
+    float: right;
+    font-size: 20px;
+    display: block;
+}
+#voltar a{
+    margin-top: 1rem;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#blocoAzul{
+    width: 100%;
+    padding: 1%;
+    background-color: rgb(5, 19, 46);
+}
+/*fim menu principal da pagina*/
+
+/*Inicio do formluario (login do aluno)*/
+
+.container{
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    color: white;
+    margin-top: 3rem
+}
+.form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form-header{
+    font-size: 10px;
+}
+.form-header h1{
+    text-align: center;
+    padding: 1.5rem;
+    font-family: Bebas Neue;
+   
+}
+.input-group{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.62rem;
+}
+.input-box input{
+    border: none;
+    border-radius: 20px;
+    padding: 0.6rem 1.5rem;
+    padding-left: 55px;
+}
+
+.input-box i{
+    background-color: #EB3519;
+    border-radius: 15px;
+    padding: 0.52rem 0.8rem;
+    position: absolute;
+}
+.login-button button{
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    border: none;
+    background-color: #EB3519;
+    border-radius: 20px;
+    cursor: pointer;    
+    padding: 0.5rem;
+}
+.login-button button:hover{
+    background-color: #fb3e20;
+}
+
+.login-button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+
+}
