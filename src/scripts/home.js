@@ -4,6 +4,7 @@ let positionCircles = document.querySelectorAll(".circle");
 
 function onStart(){
     positionCircles[1].classList.add('activeCircle');
+    
 }
 
 
