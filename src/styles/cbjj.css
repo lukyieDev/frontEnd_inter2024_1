@@ -6,13 +6,13 @@
 body{ /* Corpo da pagina */
     width: 100%;
     height: 100vh;
-    background-color: black;
+    background-image: url('../imagens/imgprincipal.jpg');
     background-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
 }
-
-
 
 /* Inicio do menu principal da segunda pagina */
 
@@ -83,44 +83,114 @@ body{ /* Corpo da pagina */
     background-color: #EB3519;
 }
 
-#img{
-    margin-top: 2%;
+/* Fim do menu principal da segunda pagina */
+
+
+.container{
+    width: 100%;
+    color: white;
+}
+
+.buttons{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 100%;
-   
+    float: left;
+}
+
+.input-button{
+    padding: 1.8rem 5rem;
+    display: flex;
     
 }
 
-#cbjj{
+.input-button i{
+    margin-right: 1rem;
+    border: 2px solid #14213D;
+    border-radius: 100px;
+    padding: 0.1rem 0.3rem;
+    background-color: #14213D;
     color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-   max-width: 600px;
-   flex-direction: column;
-   position: absolute;
-   margin-left: 35.5rem;
-   width: 600px;
-   font-size: 12px;
-   
-}
-a{
-    color:white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#faixa img{
-    width: 650px;
-    align-items: center;
-    justify-content: center;
+    font-size: 16px;
     position: absolute;
-    margin-left: 33.5rem;
-    margin-top: -2rem;
+    margin-top: 0.2rem;
+    margin-left: 0.4rem;
+    
 }
 
+.input-button h3{
+    margin-left: 3rem;
+}
 
+.input-button p{
+    font-weight: 400;
+    margin-top: -0.3rem;
+    margin-left: 3rem;
+    font-size: 12px;
+}
+
+.input-button button{
+    width: 300px;
+    border-bottom: 5px solid #787878;;
+    font-size: 13px;
+    text-align: left;
+    border-radius: 50px;
+    margin-left: 4rem;
+    padding: 0.5rem 0.3rem 0.8rem;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.title{
+    padding: 1rem;
+    font-size: 42px;
+    font-family: Bebas Neue;
+    display: flex;
+    margin-left: 5rem;
+}
+
+.img-table{
+    float: right;
+    display: flex;
+    padding-right: 0.5rem;
+}
+
+.imagem-cbjj{
+    float: right;
+    display: flex;
+    padding-right: 5rem;
+    
+}
+
+.imagem-cbjj img{
+    border-radius: 20px;
+}
+
+.faixa{
+    display: flex;
+    padding-right: 5rem;
+    position: absolute;
+}
+
+.faixa img{
+    margin-top: 14.5rem;
+    margin-left: -1rem;
+}
+
+.cbjj{
+    display: flex;
+    padding-right: 5rem;
+    position: absolute;
+}
+.cbjj h1{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    width: 350px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15.5rem;
+    margin-left: 3.5rem;
+}
+
+.cbjj a{
+    font-weight: bold;
+    color: white;
+}
