@@ -10,13 +10,15 @@ body{ /* Corpo da pagina */
     background-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
+    overflow-y: hidden;
+    
 }
 
 /* Inicio do menu principal da segunda pagina */
 .container-menu{  
     background-color: black;
     color: white;
-    padding: 2.7%;
+    padding: 1.7%;
     display: block;
 }
 .estrelas{
