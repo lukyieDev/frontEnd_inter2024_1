@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login do aluno</title>
-    <link rel="stylesheet" href="../styles/loginAluno.css">
-    <script src="../scripts/loginAluno.js" type="text/javascript" defer></script>
+    <title>Login Instrutor</title>
+    <link rel="stylesheet" href="../styles/loginInstrutor.css">
+    <script src="../scripts/loginInstrutor.js" type="text/javascript" defer></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
@@ -26,7 +26,8 @@
                 <h1 class="nomeCross">CROSS</h1>
             </div>
             <div id="voltar">
-                <p><a href="../pages/home.html">VOLTAR&nbsp</a> <span><a href="../pages/home.html"><i class="bi bi-arrow-left-circle"></a></i></span></p>
+                <p>Instrutor<span>
+                    <i class="bi bi-lock"></i></span></p>
             </div>
         </div>
     </nav>
@@ -36,7 +37,7 @@
             <form>
                 <div class="form-header">
                     <div class="title">
-                        <h1>LOGIN DO ALUNO</h1>
+                        <h1>LOGIN DO INSTRUTOR</h1>
                     </div>
                 </div>
                 <div class="input-group">
@@ -49,9 +50,24 @@
                         <i class="bi bi-lock"></i><input type="password" id="passwd" placeholder="senha" required/>
                     </div>
                 </div>
-                <div class="login-button">
-                    <button><a href="">Acessar</a></button>
-                </div>
+
+                <div class="input-group">
+                    <div class="input-box">
+                        <div class="models">
+                            <label for="models"><i class="bi bi-person-gear"></i></label>
+                            <select name="modalidade" id="models">
+                                <option value="muay" id="muay">Muay thai</option>
+                                <option value="cross">Crossfit</option>
+                                <option value="jiu">Jiu Jitsu</option>
+                                <option value="boxe">Boxe</option>
+                            </select>
+                        </div>
+                        <div class="login-button">
+                           <a href="../pages/portalInstrutor.html" target="_blank"><button type="button">Acessar</button></a>
+                        </div>
+                    </div>
+                </div>    
+                
             </form>   
         </div>
     </div>

@@ -10,6 +10,8 @@ body{ /* Corpo da pagina */
     background-size: 100%;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 
@@ -82,19 +84,33 @@ body{ /* Corpo da pagina */
     padding: -2%;
     background-color: #EB3519;
 }
-
 /*fim menu principal da segunda pagina*/
 
 /*inciando o corpo da pagina */ 
 
-.container{
-    width: 500px;
+.header{
+    color: white;
+    font-size: 32px;
+    font-family: Anton;
+    margin: 1rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+
+.voltar{
+    margin-top: -3rem;
+    float: right;
+    font-size: 20px;
+    display: flex;
+   
+}
+
+.voltar a{
+    text-decoration: none;
     color: white;
 }
-
-.title{
-    font-size: 32px;
-    font-family: Bebas Neue;
-    text-align: center;
+.voltar p{
+    padding-right: 7rem;
+    font-size: 20px;
 }
-
