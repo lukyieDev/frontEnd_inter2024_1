@@ -83,44 +83,6 @@ body{ /* Corpo da pagina */
     background-color: #EB3519;
 }
 
-#img{
-    margin-top: 2%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 100%;
-   
+.informatinContainer{
     
 }
-
-#cbjj{
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 10px;
-    margin-right: 10px;
-   max-width: 600px;
-   flex-direction: column;
-   position: absolute;
-   margin-left: 35.5rem;
-   width: 600px;
-   font-size: 12px;
-   
-}
-a{
-    color:white;
-    margin-left: 10px;
-    margin-right: 10px;
-}
-#faixa img{
-    width: 650px;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    margin-left: 33.5rem;
-    margin-top: -2rem;
-}
-
-
