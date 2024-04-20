@@ -84,14 +84,6 @@ body{ /* Corpo da pagina */
     background-color: #EB3519;
 }
 
-/* Fim do menu principal da segunda pagina */
-
-
-.container{
-    width: 100%;
-    color: white;
-}
-
 .buttons{
     display: flex;
     float: left;
