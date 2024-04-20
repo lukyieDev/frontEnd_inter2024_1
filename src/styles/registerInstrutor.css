@@ -172,7 +172,7 @@ body{ /* Corpo da pagina */
 .models{
     display: flex;
     flex-direction: column;
-    margin-left: -0.1rem;
+    margin-right: 17.5rem;
     width: 225px;
 }   
 
@@ -182,20 +182,21 @@ body{ /* Corpo da pagina */
 }
 
 .botao-continuar{
-    padding: 2.6rem;
-    margin-right: 26.5rem;
-    width: 1px; 
-}
-.botao-continuar button{
-    border: none;
-    padding: 0.5rem 3rem;
-    border-radius: 20px;
-    background-color: #EB3519;
-    font-size: 12px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
-    color: white;
-}
+    margin-top: 20.5rem;
+     margin-left: 55rem;
+     width: 1px; 
+     position: absolute;
+ }
+ .botao-continuar button{
+     border: none;
+     padding: 0.5rem 3rem;
+     border-radius: 20px;
+     background-color: #EB3519;
+     font-size: 12px;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     font-weight: bold;
+     color: white;
+ }
 .botao-continuar a{
     text-decoration: none;
 }
