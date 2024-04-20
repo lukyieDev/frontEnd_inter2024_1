@@ -6,9 +6,21 @@ const email = document.getElementById("email");
 const celular = document.getElementById("celular");
 const senha = document.getElementById("senha");
 const confirmeSenha = document.getElementById("confirmeSenha");
+const rua = document.getElementById("rua");
+const numero = document.getElementById("number");
+const complemento = document.getElementById("complemento");
+const bairro = document.getElementById("bairro");
+const city = document.getElementById("city");
+const cep = document.getElementById("cep");
 
-form.addEventListener("submit", (event) => {
-    event.preventDefault();
-
-    alert("CADASTRADO COM SUCESSO!!!");
+form.addEventListener("submit", (e)=>{
+    e.preventDefault();
+    
+    console.log(data.value);
 })
+
+function onStart(){
+
+}
+
+onStart();
