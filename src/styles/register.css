@@ -197,6 +197,11 @@ body{ /* Corpo da pagina */
     font-weight: bold;
     color: white;
 }
+
+.dataInput{
+    width: 165px;
+}
+
 .botao-continuar a{
     text-decoration: none;
 }
