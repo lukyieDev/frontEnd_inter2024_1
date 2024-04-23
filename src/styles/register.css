@@ -147,7 +147,6 @@ body{ /* Corpo da pagina */
     margin-left: 4rem;
 }
 
-
 .input-box{
     display: flex;
     flex-direction: column;
@@ -158,7 +157,6 @@ body{ /* Corpo da pagina */
     border-radius: 20px;
     padding: 0.8rem 1.7rem;
     display: flex;
-    
 }
 
 .input-box label{
