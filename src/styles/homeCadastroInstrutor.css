@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ /* Corpo da pagina */
+    background-image: url(../imagens/imgprincipal2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden; 
+}
+
+#faleConosco{ /* menu fale conosco*/
+    background-color: rgb(4, 24, 63);
+    color: aliceblue; 
+    padding: 0.5%;
+    padding-left: 5%;
+}
+.insta{
+    margin-left: 1%;
+}
+.insta a{
+    color: white;
+}
+
+/* Inicio do menu principal da segunda pagina */
+.container-menu{  
+    background-color: black;
+    color: white;
+    padding: 2.7%;
+    text-align: center;
+    display: block;
+
+}
+.estrelas{
+    color: orange; 
+    letter-spacing: 6px;
+    margin-right: 5.5rem;
+    font-size: 8px; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 5rem;
+    margin-top: -1rem;
+}
+
+.boneco{
+    text-align: center;
+    display: block;
+}
+.boneco img{
+    position: absolute;
+    margin-left: 3.5rem;
+    margin-top: -3.3rem;
+}
+.perfil{
+    font-size: 30px;
+    margin-left: -50px;
+    font-family: Anton;
+}
+
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+    font-family: Bebas Neue;
+    
+}
+.nomeCross h1{
+    margin-left: 2.3rem;
+    margin-top: -1.2rem;
+}
+#voltar{
+    float: right;
+    font-size: 20px;
+    display: block;
+}
+#voltar p{
+    color: white;
+    font-size: 20px;
+}
+
+
+/*fim menu principal da pagina*/
+
+/*Inicio do bloco*/
+.cadastrar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding: 30px;
+}
+
+.cadastrar img{
+    max-width: 200px;
+    height: 280px;
+    border-radius: 20px;
+}
+.cadastrar h1{
+    color: #EB3519;
+    font-size: 25px;
+    font-family: Bebas Neue;
+    margin-top: 10px;
+}
+.cadastrar h2{
+    color: white;
+    font-size: 20px;
+    font-family:Contrail One;
+    font-style: italic;
+    padding: 5px;
+}
+    .cadastrar h3 {
+        font-family: Bebas Neue;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: black;
+        color: white;
+        max-width: 140px;
+        margin-top: 7px;
+        margin-left: 60px;
+        font-size: 15px;
+}
+#centralizar{
+    background-color: rgb(4, 24, 63);
+    border-radius: 20px;
+    height: 395px;
+    width: 280px;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
