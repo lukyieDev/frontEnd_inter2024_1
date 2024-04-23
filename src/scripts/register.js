@@ -22,26 +22,70 @@ form.addEventListener("submit", (e)=>{
 
     if(validarForm()){
         const generoSelecionado = selectGender();
-        
-        axios.post('http://26.240.188.67:8080/usuarios', {
+        //aluno endereco usuario
+
+
+        axios.post('http://26.240.188.67:8080/alunos', {
             nome: usarname.value,
-            email: email.value,
-            senha: senha.value,
-            telefone: celular.value,
-            dataNasc: data.value,
-            modalidade: modalidade.value,
-            genero: generoSelecionado,
-            status: "Ativo",
-        })
-        .then((response)=>{
+            sobrenome: sobrenome.value,
+            dataDeNascimento: data.value,
+            status: "Ativo"
+        }).then((response)=>{
             console.log(response);
-        })
-        .catch((error)=>{
+        }).catch((error)=>{
             console.log(error);
         })
+
+        setTimeout(()=>{
+            axios.post('http://26.240.188.67:8080/usuarios', {
+                nome: usarname.value,
+                email: email.value,
+                senha: senha.value,
+                telefone: celular.value,
+                dataNasc: data.value,
+                modalidade: modalidade.value,
+                genero: generoSelecionado,
+                status: "Ativo",
+            })
+            .then((response)=>{
+                console.log(response);
+            })
+            .catch((error)=>{
+                console.log(error);
+            })
+        }, 1600)
+
+
+        setTimeout(()=>{
+            axios.post('http://26.240.188.67:8080/enderecos', {
+                rua: rua.value,
+                numero: numero.value,
+                complemento: complemento.value,
+                bairro: bairro.value,
+                cidade: city.value,
+                cep: cep.value,
+                status: "Atual"
+            }).then((response)=>{
+                console.log(response);
+            })
+            .catch((error)=>{
+                console.log(error);
+            })
+        }, 2700)
         
+
+
+        Swal.fire({
+            position: "center",
+            icon: "success",
+            title: "Cadastrado com sucesso, você será redirecionado para a página de login!",
+            showConfirmButton: false,
+            timer: 3000
+          })
         
-        window.location.href= "../pages/loginAluno.html";
+        setTimeout(()=>{
+            window.location.href="../pages/loginAluno.html"
+        }, 5500)
     }
 })
 
@@ -122,7 +166,3 @@ function selectGender(){
 }
 celValidate();
 cepValidate();
-
-
-
-
