@@ -76,18 +76,12 @@ body{ /* Corpo da pagina */
     font-size: 20px;
     display: block;
 }
-#voltar a{
-    margin-top: 1rem;
-    text-decoration: none;
+#voltar p{
     color: white;
     font-size: 20px;
 }
 
-#blocoAzul{
-    width: 100%;
-    padding: 1%;
-    background-color: #14213D;
-}
+
 /*fim menu principal da pagina*/
 
 /*Inicio do formluario (login do aluno)*/
@@ -97,7 +91,8 @@ body{ /* Corpo da pagina */
     height: 20vh;
     display: flex;
     color: white;
-    margin-top: 3rem
+    margin-top: 5rem
+
 }
 .form{
     width: 100%;
@@ -123,12 +118,12 @@ body{ /* Corpo da pagina */
 .input-box input{
     border: none;
     border-radius: 20px;
-    padding: 0.6rem 1.5rem;
+    padding: 0.6rem 0.1rem;
     padding-left: 55px;
 }
 
 .input-box i{
-    background-color: #EB3519;
+    background-color: #14213D;
     border-radius: 15px;
     padding: 0.52rem 0.8rem;
     position: absolute;
@@ -138,18 +133,35 @@ body{ /* Corpo da pagina */
     width: 100%;
     margin-top: 1rem;
     border: none;
-    background-color: #EB3519;
+    background-color: #14213D;
     border-radius: 20px;
-    cursor: pointer;    
+    cursor: pointer;   
     padding: 0.5rem;
+    color: white;
 }
+
 .login-button button:hover{
-    background-color: #fb3e20;
+    background-color: #0b1323;
 }
 
 .login-button a{
     text-decoration: none;
-    color: white;
+    
     font-size: 15px;
+}
 
+
+
+.models{
+    display: flex;
+    flex-direction: column;
+    margin-left: -0.1rem;
+    width: 225px;
+}   
+
+.models select{
+    border: none;
+    border-radius: 20px;
+    padding: 0.55rem 1.5rem;
+    padding-left: 55px; 
 }

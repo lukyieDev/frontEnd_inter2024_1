@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{ /* Corpo da pagina */
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    background-size: 100%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    overflow-x: hidden;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+
+/* Inicio do menu principal da segunda pagina */
+
+#blocoAzul{ /* menu fale conosco*/
+    background-color: #14213D;
+    width: 100%;
+    height:  3vh;
+    padding: -2%;
+}
+.insta{
+    float: right;
+    padding-left: 1rem;
+    display: flex;
+}
+.insta i{
+    float: right;
+    margin-left: 1%;
+}
+.insta a{
+    color: white;
+}
+
+.container-menu{  
+    background-color: black;
+    color: white;
+    padding: 2.7%;
+    display: block;
+}
+.estrelas{
+    color: orange; 
+    letter-spacing: 6px;
+    margin-right: 5.5rem;
+    font-size: 8px; 
+    display: flex;
+    margin-left: 5rem;  
+    align-items: center;
+    margin-top: -1rem;
+}
+
+.boneco{
+    display: block;
+}
+.boneco img{
+    position: absolute;
+    margin-left: 12.5rem;
+    margin-top: -3.3rem;
+}
+.perfil{
+    font-size: 30px;
+    margin-left: 80px;
+    font-family: Anton;
+}
+
+.nomeCross{
+    color: orange;
+    font-size: 25px;
+    font-family: Bebas Neue;
+}
+.nomeCross h1{
+    margin-left: 3.2rem;
+    margin-top: -1.2rem;
+}
+
+#blocoLaranja{
+    width: 100%;
+    height:  1vh;
+    padding: -2%;
+    background-color: #EB3519;
+}
+/*fim menu principal da segunda pagina*/
+
+/*inciando o corpo da pagina */ 
+
+.header{
+    color: white;
+    font-size: 32px;
+    font-family: Anton;
+    margin: 1rem;
+    margin-left: 5rem;
+    display: flex;
+}
+
+
+.voltar{
+    margin-top: -3rem;
+    float: right;
+    font-size: 20px;
+    display: flex;
+   
+}
+
+.voltar a{
+    text-decoration: none;
+    color: white;
+}
+.voltar p{
+    padding-right: 7rem;
+    font-size: 20px;
+}
+
+.studentsTable{
+    margin-left: 60px;
+}
+
+.studentsTable th, td{
+    color: white;
+    border:1px solid white;
+    padding: 8px;
+}
+
+
+.studentsTable th{
+    font-size: 24px;
+}

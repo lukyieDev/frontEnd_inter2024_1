@@ -52,7 +52,7 @@ body{ /* Corpo da pagina */
 }
 .boneco img{
     position: absolute;
-    margin-left: 2.3rem;
+    margin-left: 3.5rem;
     margin-top: -3.3rem;
 }
 .perfil{
@@ -68,7 +68,7 @@ body{ /* Corpo da pagina */
     
 }
 .nomeCross h1{
-    margin-left: 3.2rem;
+    margin-left: 2.3rem;
     margin-top: -1.2rem;
 }
 #voltar{
@@ -76,80 +76,64 @@ body{ /* Corpo da pagina */
     font-size: 20px;
     display: block;
 }
-#voltar a{
-    margin-top: 1rem;
-    text-decoration: none;
+#voltar p{
     color: white;
     font-size: 20px;
 }
 
-#blocoAzul{
-    width: 100%;
-    padding: 1%;
-    background-color: #14213D;
-}
+
 /*fim menu principal da pagina*/
 
-/*Inicio do formluario (login do aluno)*/
-
-.container{
-    width: 100%;
-    height: 20vh;
+/*Inicio do bloco*/
+.cadastrar{
     display: flex;
-    color: white;
-    margin-top: 3rem
-}
-.form{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center; 
-}
-
-.form-header{
-    font-size: 10px;
-}
-.form-header h1{
+    align-items: center;
+    flex-direction: column;
     text-align: center;
-    padding: 1.5rem;
+    padding: 30px;
+}
+
+.cadastrar img{
+    max-width: 200px;
+    height: 280px;
+    border-radius: 20px;
+}
+.cadastrar h1{
+    color: #EB3519;
+    font-size: 25px;
     font-family: Bebas Neue;
-   
+    margin-top: 10px;
 }
-.input-group{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0.62rem;
-}
-.input-box input{
-    border: none;
-    border-radius: 20px;
-    padding: 0.6rem 1.5rem;
-    padding-left: 55px;
-}
-
-.input-box i{
-    background-color: #EB3519;
-    border-radius: 15px;
-    padding: 0.52rem 0.8rem;
-    position: absolute;
-}
-.login-button button{
-    text-align: center;
-    width: 100%;
-    margin-top: 1rem;
-    border: none;
-    background-color: #EB3519;
-    border-radius: 20px;
-    cursor: pointer;    
-    padding: 0.5rem;
-}
-.login-button button:hover{
-    background-color: #fb3e20;
-}
-
-.login-button a{
-    text-decoration: none;
+.cadastrar h2{
     color: white;
-    font-size: 15px;
-
+    font-size: 20px;
+    font-family:Contrail One;
+    font-style: italic;
+    padding: 5px;
+}
+    .cadastrar h3 {
+        font-family: Bebas Neue;
+        padding: 10px;
+        border-radius: 25px;
+        background-color: black;
+        color: white;
+        max-width: 140px;
+        margin-top: 7px;
+        margin-left: 60px;
+        font-size: 15px;
+}
+#centralizar{
+    background-color: rgb(4, 24, 63);
+    border-radius: 20px;
+    height: 395px;
+    width: 280px;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+a {
+    color: white;
+    text-align: center;
+    text-decoration: none;
 }
