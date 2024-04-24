@@ -7,7 +7,7 @@
     <title>Cadastro - Perfil Cross</title>
     <link rel="stylesheet" href="../styles/register.css">
     <script src="../scripts/register.js" type="text/javascript" defer></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 
@@ -65,87 +65,94 @@
 
                         <div class="input-box">
                             <label for="user">Nome de Usuário</label>
-                            <input type="text" id="user" placeholder="Digite seu Nome de Usuário" required />
+                            <input type="text" id="user" placeholder="Digite seu Nome de Usuário"  required/>
                             
                         </div>
 
                         <div class="input-box">
                             <label for="Data">Data de nascimento</label>
+
                             <input style="width: 165px;" class="dataInput" type="date" id="data" placeholder="dd/MM/aaaa"/>
+
+                         
+
 
                         </div>
 
                         <div class="input-box">
                             <label for="email">E-mail</label>
-                            <input type="text" id="email" placeholder="Digite seu E-mail"  />
+                            <input type="text" id="email" placeholder="Digite seu E-mail"  required/>
 
                         </div>
 
                         <div class="input-box">
                             <label for="celular">Celular</label>
-                            <input inputmode="numeric" type="text" id="celular" placeholder="(xx) xxxxx-xxxx" />
+                            <input maxlength="11" type="number" id="celular" placeholder="(xx) xxxxx-xxxx" required/>
 
                         </div>
 
                         <div class="input-box">
                             <label for="senha">Senha</label>
-                            <input type="password" id="senha" placeholder="Digite sua senha"  />
+                            <input type="password" id="senha" placeholder="Digite sua senha" />
 
                         </div>
                         <div class="input-box">
                             <label for="confirme-senha">Confirme sua senha</label>
+
                             <input type="password" id="confirmeSenha" placeholder="Digite sua senha novamente" />
+
+
                         </div>
 
                       
                         <div class="input-box">
                             <label for="rua">Rua</label>
                             <input type="text" id="rua" placeholder="Digite sua rua"
-                                 />
+                            required/>
                         </div>
 
                         <div class="input-box">
                             <label for="number">Numero</label>
                             <input type="number" id="number" placeholder="Digite seu numero"
-                                 />
+                            required/>
                         </div>
 
                         <div class="input-box">
                             <label for="complemento">Complemento</label>
                             <input type="text" id="complemento" placeholder="Complemento do endereço"
-                                 />
+                            required/>
                         </div>
 
                         <div class="input-box">
                             <label for="bairro">Bairro</label>
                             <input type="text" id="bairro" placeholder="Digite seu bairro"
-                                 />
+                            required/>
                         </div>
 
                         <div class="input-box">
                             <label for="city">Cidade</label>
                             <input type="text" id="city" placeholder="Digite sua cidade"
-                                 />
+                            required/>
                         </div>
 
                         <div class="input-box">
                             <label for="cep">Cep</label>
                             <input type="number" id="cep" placeholder="Digite seu cep"
-                                 />
+                            />
                         </div>
 
                         <div class="input-box">
                             <div class="models">
                                 <label for="models">modalidade</label>
                                 <select name="modalidade" id="models">
-                                    <option value="cross">Crossfit</option>
-                                    <option value="jiu">Jiu Jitsu</option>
+                                    <option value="Crossfit">Crossfit</option>
+                                    <option value="Jiu jitsu">Jiu Jitsu</option>
                                 </select>
                             </div>
                         </div>
 
                         <div class="botao-continuar">
-                            <a href="../pages/loginAluno.html"><button style="cursor: pointer;" type="submit">Continuar</button></a>
+                            <a href="../pages/loginAluno.html"><button style="cursor: pointer;" type="submit">Cadastrar</button></a>
                         </div>
 
                        
@@ -175,7 +182,7 @@
                         </div>
 
                         <div class="gender-input">
-                            <input type="radio" id="nao-informar" name="gender">
+                            <input type="radio" id="pni" name="gender">
                             <label for="nao-informar">Prefiro não informar</label>
                         </div>
                     </div>
