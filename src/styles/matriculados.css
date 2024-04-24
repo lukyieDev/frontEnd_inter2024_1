@@ -114,3 +114,18 @@ body{ /* Corpo da pagina */
     padding-right: 7rem;
     font-size: 20px;
 }
+
+.studentsTable{
+    margin-left: 60px;
+}
+
+.studentsTable th, td{
+    color: white;
+    border:1px solid white;
+    padding: 8px;
+}
+
+
+.studentsTable th{
+    font-size: 24px;
+}
