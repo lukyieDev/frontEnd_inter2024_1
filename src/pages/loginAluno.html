@@ -6,6 +6,7 @@
     <title>Login - Perfil Cross</title>
     <link rel="stylesheet" href="../styles/loginAluno.css">
     <script src="../scripts/loginAluno.js" type="text/javascript" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 </head>
@@ -33,7 +34,7 @@
 
     <div class="container">
         <div class="form">
-            <form>
+            <div class="formContainer">
                 <div class="form-header">
                     <div class="title">
                         <h1>LOGIN DO ALUNO</h1>
@@ -41,17 +42,17 @@
                 </div>
                 <div class="input-group">
                     <div class="input-box">
-                        <i class="bi bi-person"></i><input type="text" id="user" placeholder="Usuário" required/>
+                        <i class="bi bi-person"></i><input type="text" id="user" placeholder="Usuário"/>
                 </div>
                 </div>
                 <div class="input-group">
                     <div class="input-box">
-                        <i class="bi bi-lock"></i><input type="password" id="passwd" placeholder="senha" required/>
+                        <i class="bi bi-lock"></i><input type="password" id="pass" placeholder="senha" />
                     </div>
                 </div>
                 <div class="login-button">
-                    <button><a href="">Acessar</a></button>
+                    <button style="color: white; font-size: 12px;" class="submitButton">Acessar</button>
                 </div>
-            </form>   
+            </div>   
         </div>
     </div>
